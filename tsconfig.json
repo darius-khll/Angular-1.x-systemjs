@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "target": "es5",
+        "moduleResolution": "node",
+        "watch": true
+    },
+    "compileOnSave": true
+}
