@@ -1,0 +1,18 @@
+{
+  "name": "system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/angular": "^1.5.22",
+    "@types/systemjs": "^0.19.33",
+    "angular": "^1.6.1",
+    "express": "^4.14.0",
+    "systemjs": "^0.19.41"
+  }
+}
