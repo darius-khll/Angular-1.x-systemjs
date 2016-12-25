@@ -1,0 +1,23 @@
+<script src="node_modules/systemjs/dist/system.js"></script>
+<!--<script src="node_modules/angular/angular.js"></script>-->
+
+<script>
+  System.config({
+    defaultJSExtensions: true,
+    map: {
+      'angular': 'node_modules/angular/angular.js',
+    },
+    meta: {
+      'angular': {
+        exports: 'angular'
+      }
+    }
+  });
+  System
+    .import('app/container.js')
+    .then(null, console.error.bind(console));
+</script>
+
+<div  ng-app="app" ng-controller="ctrl as vm">
+  <h1>Name: {{vm.test}}</h1>
+</div>
